@@ -7,6 +7,43 @@ html, body {
     text-align: center;
     background-image: cover;
 }
+header { /* Define o estilo do cabeçalho */
+  height: 60px; /* Define a altura como 60px */
+  width: 100%; /* Define a largura como 100% */
+  position: fixed; /* Define a posição como fixa */
+  z-index: 10; /* Define o z-index como 10 */
+  background: black;/* Define o background como black */
+}
+header #logo { /* Define o estilo do logo */
+  position: absolute;/* Define a posição como absolute */
+  top: 10px;/* Define o top como 10px */
+  float: left;/* Define o float como left */
+  height: 40px; /* Define a altura como 40px */
+  width: 170px; /* Define a largura como 170px */
+  margin-left: 5%; /* Define a margem esquerda como 5% */
+}
+header #logo img{ /* Define o estilo da imagem do logo */
+  max-height: 100%; /* Define a altura máxima como 100% */
+}
+header .menu { /* Define o estilo do menu */
+  float: right; /* Define o float como right */
+  list-style: none; /* Define o estilo da lista como none */
+  margin-top: 0px; /* Define a margem superior como 0px */
+  margin-right: 5%; /* Define a margem direita como 5% */
+}
+header .menu li { /* Define o estilo dos itens da lista */
+  float: left;  /* Define o float como left */
+  font-size: 18px;  /* Define o tamanho da fonte como 18px */
+  padding: 20px 10px 20px 10px; /* Define o padding como 20px 10px 20px 10px */
+}
+header .menu li a { /* Define o estilo dos links */
+  color: initial; /* Define a cor como initial */
+  text-decoration: initial; /* Define o text-decoration como initial */
+  color: white; /* Define a cor como white */
+}
+header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
+  background-color: #01acea;  /* Define a cor de fundo como #01acea */
+}
 #titulo {
     color: white;
     padding-top: 20%;
