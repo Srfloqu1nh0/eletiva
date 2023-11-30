@@ -60,7 +60,7 @@ header .menu li a { /* Define o estilo dos links */
   color: white ; /* Define a cor como white */
 }
 header .menu li:hover { /* Define o estilo dos itens da lista quando o mouse passa por cima */
-  background-color: white ;  /* Define a cor de fundo como #01acea */
+  background-color: blue ;  /* Define a cor de fundo como #01acea */
 }
 /* --------  Capa  -------- */
 figure {  /* Define o estilo da figura */
